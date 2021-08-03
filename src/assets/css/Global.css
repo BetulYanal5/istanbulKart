@@ -1,0 +1,14 @@
+.headYazi{
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 1.5rem;
+  }
+  .yaziKucuk{
+      font-style: italic;
+      padding-bottom: 1rem;
+  
+  }
+  .opacityYazi{
+      font-style: italic;
+      opacity: 0.6;
+  }
