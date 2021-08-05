@@ -4,13 +4,26 @@ import Head from './components/Head'
 import MainPage from './views/MainPage/MainPage';
 import Footer from './components/Footer'
 import SmsDogrulama from './views/SmsDogrulama/SmsDogrulama'
+import KartSecimi from './views/KisisellestirilmisKartSecimi/KartSecimi';
+import { BrowserRouter as Router,Switch,Route} from 'react-router-dom'
+
 function App() {
   return (
     <div >
-     <Head/>
-     {/* <MainPage/> */}
-     <SmsDogrulama/>
-     <Footer/>
+       <Router>
+        <Head/>
+        <Switch>
+          <Route path="/" exact component={MainPage}/>
+          <Route path="/smsDogrulama" component={SmsDogrulama}/>
+          <Route path="/kartSecimi" component={KartSecimi}/>
+        </Switch>
+        <Footer/>
+      </Router> 
+     {/* <Head/>
+      <MainPage/> 
+     <SmsDogrulama/> 
+     <KartSecimi/>
+     <Footer/> */}
     </div>
   );
 }

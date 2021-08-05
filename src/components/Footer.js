@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div>
             <div className="footer py-3" >
-              <div className="headImg ">
+              <div className="headImg container">
                 <img src={group3} alt="head-istanbul-yazısı" />
               </div> 
           </div>  

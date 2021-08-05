@@ -1,0 +1,54 @@
+.textArea{
+    display: flex; 
+    margin-top: 1rem;
+}
+.ortala{
+    align-items: center;
+    justify-content: center;
+}
+.ta{
+    display: inline-block;
+    padding-right: 1.4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem; 
+}
+.dogrulamaKodu{
+    background: #1a4697;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    text-align: center;
+}
+.ta1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    margin-top: 1.25rem;
+    
+    border-radius: 5px;
+    letter-spacing: 0.06rem;
+}
+.devamBtn{
+    background: #1a4697;
+    color: #fff;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    font-style: normal;
+    padding:0.4rem 6rem;
+}
+.devamBtn:hover{
+    color:#fff;
+}
+.form-text{
+    font-style: italic;
+    padding-bottom: 0.4rem;
+}
+.headYaziSms{
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+}

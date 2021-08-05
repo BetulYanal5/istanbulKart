@@ -1,0 +1,36 @@
+.arti{
+    padding-right:1rem ;
+}
+.addBtn{
+    background: #1a4697;
+    margin-bottom: 3rem;
+    font-weight: normal;
+    font-style: normal;
+    
+}
+.secimMadde{
+    font-style: italic;
+}
+.secimMadde::before{
+    content: '';
+    height: 10px;
+    border-radius: 100%;
+    background-color:#1a4697; 
+    width: 10px;
+    display: inline-block;
+    margin-right: 0.2rem;
+}
+.kartSecimYazi{
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+}
+.form-check .form-check-input {
+    float: left;
+    margin-left: -0.8em;
+}
+.kartNo{
+    font-size: 18px;
+    line-height: 29px;
+}
