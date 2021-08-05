@@ -12,7 +12,13 @@ code {
     monospace;
 }
 
-
+/* @font-face {
+  font-family: 'MarkProMedium';
+  src: url(./fonts/FontFont_FF.Mark.Pro.Medium.Italic.otf);
+  font-weight: bold;
+} */
+/* @import url(./fonts/FontFont_FF.Mark.Pro.Medium.Italic.otf); */
+@import url(./assets/css/Font.css);
 @media (min-width: 1320px){
   .container, .container-lg, .container-md, .container-sm, .container-xl {
       max-width: 1200px;

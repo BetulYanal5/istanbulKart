@@ -7,29 +7,30 @@ const SmsDogrulama = () => {
         <div >
          <section className="container" >
              <div >
-                 <p className="headYaziSms ">
+                 <p className="headYaziSms mpMedium">
                      SMS DOĞRULAMA
                  </p>
-                <p className="opacityYazi">
+                <p className="opacityYazi mpRegular">
                     İstanbulkart sorgulama sürecine başlayabilmek için aşagıdaki bilgileri eksiksiz doldurunuz.
                 </p>
              </div>
-            <form className="row textArea">
-                <div className="mb-5 col-6">
-                    <label for="exampleInputEmail1" className="form-text">Ad</label>
+            <form className="row textArea ">
+                <div className="mb-5  col-md-6 col-12 ">
+                    <label for="exampleInputEmail1" className="form-text opacityYazi mpRegular">Ad</label>
                     <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
                 </div>
-                <div className="mb-5 col-6">
-                    <label for="exampleInputPassword1" className="form-text">Soyad</label>
+                <div className="mb-5  col-md-6 col-12">
+                    <label for="exampleInputPassword1" className="form-text opacityYazi mpRegular">Soyad</label>
                     <input type="text" className="form-control" id="exampleInputPassword1"/>
                 </div>
-                <div className="mb-5 col-6">
-                    <label for="exampleInputEmail1" className="form-text">TCKN</label>
+                <div className="mb-5  col-md-6 col-12">
+                    <label for="exampleInputEmail1" className="form-text opacityYazi mpRegular">TCKN</label>
                     <input type="number" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
                 </div>
-                <div className="mb-5 col-6">
-                    <label for="exampleInputEmail1" className="form-text">Telefon Numarası</label>
+                <div className="mb-5  col-md-6 col-12">
+                    <label for="exampleInputEmail1" className="form-text opacityYazi mpRegular">Telefon Numarası</label>
                     <input type="number" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                    
                 </div>
                 <div className="col-12">
                     <div className="row ">
@@ -39,8 +40,8 @@ const SmsDogrulama = () => {
                                 <a className="dogrulamaKodu text-white d-block" href="#">W34DS</a>
                             </div>
                             <div className="col-3">
-                                <label htmlFor="aa" className="form-text">Güvenlik Kodu</label>
-                                <input type="text" className="form-control" />
+                                <label htmlFor="aa" className="form-text opacityYazi mpRegular">Güvenlik Kodu</label>
+                                <input type="text" className="form-control kod " />
                             </div>
                             </div>
                         </div>

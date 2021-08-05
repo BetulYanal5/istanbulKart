@@ -16,7 +16,7 @@
     background: #1a4697;
     border-radius: 5px;
     letter-spacing: 0.5px;
-    line-height: 40px;
+    line-height: 60px;
     text-align: center;
 }
 .ta1{
@@ -27,7 +27,6 @@
 }
 .btn{
     margin-top: 1.25rem;
-    
     border-radius: 5px;
     letter-spacing: 0.06rem;
 }
@@ -41,14 +40,26 @@
 }
 .devamBtn:hover{
     color:#fff;
+    
 }
 .form-text{
-    font-style: italic;
+    /* font-style: italic; */
     padding-bottom: 0.4rem;
 }
 .headYaziSms{
-    font-weight: bold;
-    font-style: italic;
     padding-top: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 2.25rem;
+}
+/* .kod {
+  width: 270px !important;
+} */
+.form-control{
+    padding:.9rem .75rem;
+
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    outline: 0;
+  
 }

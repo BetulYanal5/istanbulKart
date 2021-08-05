@@ -7,3 +7,23 @@
     display: inline-block;
    
 }
+.anasayfaHead{
+    font-size: 28px;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.reset [type="number"] {
+    -moz-appearance: spinner-textfield;
+}
+
+.reset input[type='number']::-webkit-outer-spin-button,
+.reset input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: inner-spin-button;
+}                  

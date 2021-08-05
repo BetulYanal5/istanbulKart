@@ -1,0 +1,21 @@
+
+@font-face {
+    font-family: 'MarkProMedium';
+    src: url(../../fonts/FontFont_FF.Mark.Pro.Medium.Italic.otf);
+  }  
+@font-face {
+    font-family: 'MarkPro';
+    src: url(../../fonts/FontFont_FF.otf);
+} 
+@font-face {
+    font-family: 'MarkProRegular';
+    src: url(../../fonts/FontFont_FF.Mark.Pro.Italic.otf);
+}
+
+
+.mpMedium{
+    font-family: 'MarkProMedium';
+}
+.mpRegular{
+    font-family: 'MarkProRegular';
+}

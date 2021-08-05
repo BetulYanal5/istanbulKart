@@ -1,0 +1,29 @@
+.uyariİsareti{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+    margin-top: 3rem;
+}
+.unlem{
+    position: absolute;
+    font-size: 228px;
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+}
+.uyari1Yazi{
+    font-size: 24px;
+}
+.uyariAltindakiYazi{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.linkYaziUyari{
+      color: black;
+      text-decoration: underline;
+      font-size: 24px;
+      font-weight: bold;
+}

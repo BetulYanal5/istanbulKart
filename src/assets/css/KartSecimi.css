@@ -1,15 +1,23 @@
-.arti{
+ .arti{
     padding-right:1rem ;
-}
+    text-align: center;
+} 
 .addBtn{
-    background: #1a4697;
+    /* background: #1a4697;
     margin-bottom: 3rem;
     font-weight: normal;
-    font-style: normal;
+    font-style: normal; */
+        background: #1a4697;
+        color: #fff;
+        margin-bottom: 3rem;
+        font-style: normal;
+        padding:0.1rem 4rem;
+        height: 60px;
+        width: 368px;
     
 }
 .secimMadde{
-    font-style: italic;
+    font-size: 18px;
 }
 .secimMadde::before{
     content: '';
@@ -21,16 +29,16 @@
     margin-right: 0.2rem;
 }
 .kartSecimYazi{
-    font-weight: bold;
-    font-style: italic;
+    /* font-weight: bold;
+    font-style: italic; */
     padding-top: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 28px;
 }
 .form-check .form-check-input {
     float: left;
     margin-left: -0.8em;
 }
 .kartNo{
-    font-size: 18px;
+    font-size:24px;
     line-height: 29px;
 }
