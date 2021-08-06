@@ -1,0 +1,56 @@
+/* #kisisellestirilmisKart .form-text{
+    color:black;
+} */
+.kartEkleYazi{
+    font-size: 24px;
+    
+}
+.kisiselKartBtn{
+    background-color:hsl(191, 79%, 52%);
+    color: #fff;
+    border-radius: 8px 8px 8px 8px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    border:1px solid transparent;
+    width: 240px;
+}
+.kisiselBtn{
+    margin-top: 1.25rem;
+    border-radius: 5px;
+    letter-spacing: 0.06rem;  
+}
+.kisiselKartBtn:hover{
+    background-color: #fff;
+    color:black;
+    border:1px solid #707070;
+}
+.eskiKartBtn{
+    background-color: #fff;
+    color: #707070;
+    border-radius: 8px 8px 8px 8px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    text-align: center;
+    border:1px solid #707070;
+    width: 240px;
+}
+.kartlar{
+    width: auto;
+    position: relative;
+}
+.kisiselKartMadde{
+    font-size: 24px;
+}
+.kisiselKartMadde::before{
+    content: '';
+    height: 15px;
+    border-radius: 100%;
+    background-color:#1a4697; 
+    width: 15px;
+    display: inline-block;
+    margin-right: 0.2rem;
+}

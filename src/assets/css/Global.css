@@ -25,10 +25,21 @@
       text-decoration: none;
       color: #fff;
   }
+  
   /* a:hover{
       color: #fff;
   } */
   .linkYazi{
       color: black;
       text-decoration: underline;
+  }
+  .linkYazi:hover{
+      color: black;
+  }
+  .btnYazi{
+      font-size: 24px;
+  }
+  .btnYazi:hover{
+      color: #fff;
+      
   }

@@ -18,6 +18,10 @@
     letter-spacing: 0.5px;
     line-height: 60px;
     text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-style: normal;
+    
 }
 .ta1{
     display: flex;
@@ -29,6 +33,7 @@
     margin-top: 1.25rem;
     border-radius: 5px;
     letter-spacing: 0.06rem;
+    padding: 0rem 10rem;
 }
 .devamBtn{
     background: #1a4697;
@@ -43,7 +48,6 @@
     
 }
 .form-text{
-    /* font-style: italic; */
     padding-bottom: 0.4rem;
 }
 .headYaziSms{
@@ -55,11 +59,12 @@
 } */
 .form-control{
     padding:.9rem .75rem;
-
+    border-radius: 8px 8px 8px 8px;
 }
 .form-control:focus {
     color: #212529;
     background-color: #fff;
     outline: 0;
-  
+    box-shadow: none;
+    
 }

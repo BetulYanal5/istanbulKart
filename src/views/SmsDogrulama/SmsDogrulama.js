@@ -49,7 +49,7 @@ const SmsDogrulama = () => {
                 </div>
                 <div className="textArea ortala py-3">
                 <Link className="linkYazi" to="/kartSecimi">
-                        <button type="submit" className=" btn devamBtn" href="#">
+                        <button type="submit" className=" btn dogrulamaKodu mb-5 btnYazi mpHeavy" href="#">
                             DEVAM
                         </button>
                     </Link>

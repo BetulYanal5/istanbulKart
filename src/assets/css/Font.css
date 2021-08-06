@@ -11,6 +11,10 @@
     font-family: 'MarkProRegular';
     src: url(../../fonts/FontFont_FF.Mark.Pro.Italic.otf);
 }
+@font-face {
+    font-family: 'MarkProHeavy';
+    src: url(../../fonts/FontFont_FF.Mark.Pro.Heavy-edit.otf);
+}
 
 
 .mpMedium{
@@ -18,4 +22,7 @@
 }
 .mpRegular{
     font-family: 'MarkProRegular';
+}
+.mpHeavy{
+    font-family: 'MarkProHeavy';
 }
