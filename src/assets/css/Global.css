@@ -1,25 +1,10 @@
 .textArea a:hover{
     color:#fff;
 }
-  .yaziMedium{
-      padding-top: 1.5rem;
-  }
   .yaziKucuk{
       padding-bottom: 1rem;
-      font-size: 1rem;
+      font-size: 24px;
       
-  }
-  .opacityYazi{
-      opacity: 0.6;
-      font-size: 1.5rem;
-  }
-  /* .mdYazi{
-      padding-bottom: 1rem;
-      font-size: 1rem;
-  } */
-  .ortaBaslik{
-      padding-bottom: 1rem;
-      font-size:24px;
   }
   a{
       text-decoration: none;
@@ -42,4 +27,29 @@
   .btnYazi:hover{
       color: #fff;
       
+  }
+
+  /* text */
+  .otuzAlti{
+      font-size: 36px;
+  }
+  .yirmiSekiz{
+      font-size: 28px;
+  }
+  .yirmiAlti{
+      font-size: 26px;
+  }
+  .yirmiDort{
+      font-size: 24px;
+  }
+
+  /* color */
+  .bg-color{
+    background-color: var(--bs-primary);
+  }
+  .text-color{
+    color:var(--bs-dark);
+  }
+  .text-opacity{
+    color:var(--bs-secondary);
   }

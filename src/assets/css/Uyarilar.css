@@ -4,7 +4,6 @@
     /* justify-content: center; */
     align-items: center;
     position: relative;
-    margin-top: 3rem;
 }
 .unlem{
     position: absolute;
@@ -13,17 +12,9 @@
     color: #fff;
     font-style: italic;
 }
-.uyari1Yazi{
-    font-size: 24px;
-}
 .uyariAltindakiYazi{
     text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+    /* margin-top: 2rem;
+    margin-bottom: 3rem; */
 }
-.linkYaziUyari{
-      color: black;
-      text-decoration: underline;
-      font-size: 24px;
-      font-weight: bold;
-}
+

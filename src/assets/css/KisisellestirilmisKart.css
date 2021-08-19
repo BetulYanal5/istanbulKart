@@ -1,31 +1,25 @@
-/* #kisisellestirilmisKart .form-text{
-    color:black;
-} */
-.kartEkleYazi{
-    font-size: 24px;
-    
-}
 .kisiselKartBtn{
-    background-color:hsl(191, 79%, 52%);
-    color: #fff;
     border-radius: 8px 8px 8px 8px;
     border-radius: 5px;
     letter-spacing: 0.5px;
     line-height: 40px;
     text-align: center;
-    color: #fff;
     border:1px solid transparent;
     width: 240px;
+    color:black;
+    font-size: 24px;
+    border:1px solid #707070;
+    background-color: #fff;
+}
+.kisiselKartBtn.active{
+    background-color: #3cb4e7;
+    border:none;
+    color: #fff;
 }
 .kisiselBtn{
     margin-top: 1.25rem;
     border-radius: 5px;
     letter-spacing: 0.06rem;  
-}
-.kisiselKartBtn:hover{
-    background-color: #fff;
-    color:black;
-    border:1px solid #707070;
 }
 .eskiKartBtn{
     background-color: #fff;
@@ -38,12 +32,21 @@
     border:1px solid #707070;
     width: 240px;
 }
+.yeniKartBtn{
+    background-color: #fff;
+    color: black;
+    border-radius: 8px 8px 8px 8px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    text-align: center;
+    border:1px solid #707070;
+    width: 240px;
+}
 .kartlar{
     width: auto;
     position: relative;
-}
-.kisiselKartMadde{
-    font-size: 24px;
+    margin-right: 1.5rem;
 }
 .kisiselKartMadde::before{
     content: '';
@@ -53,4 +56,22 @@
     width: 15px;
     display: inline-block;
     margin-right: 0.2rem;
+}
+@media screen and (max-width:768px) {
+    .eskiKart{
+        margin-right: 0px;
+        margin-bottom: 0.5rem;
+    }
+}
+@media screen and(min-width:769px) {
+    .eskiKart{
+        margin-right: 1.5rem;
+    }
+}
+.ayarla{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
 }

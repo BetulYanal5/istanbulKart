@@ -1,7 +1,7 @@
 .head{
-    background-color: #1a4697;
+    background-color: var(--bs-primary);
 }
-.head .headImg{
+/* .head .headImg{
     padding-left: 325px;
     opacity: 1;
-}
+} */

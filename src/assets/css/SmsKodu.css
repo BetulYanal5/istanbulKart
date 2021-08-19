@@ -10,3 +10,14 @@
     float: left;
     margin-left: -1.5em;
 }
+#noMargin label{
+    display: block;
+}
+#noMargin{
+    margin-top: 2rem;
+}
+@media screen and (max-width:576px) {
+    #noMargin{
+        margin-top: 4rem;
+    }
+}

@@ -7,9 +7,6 @@
     display: inline-block;
    
 }
-.anasayfaHead{
-    font-size: 28px;
-}
 input[type='number'] {
     -moz-appearance: textfield;
 }

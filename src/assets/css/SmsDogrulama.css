@@ -6,16 +6,9 @@
     align-items: center;
     justify-content: center;
 }
-.ta{
-    display: inline-block;
-    padding-right: 1.4rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem; 
-}
 .dogrulamaKodu{
     background: #1a4697;
     border-radius: 5px;
-    letter-spacing: 0.5px;
     line-height: 60px;
     text-align: center;
     color: #fff;
@@ -23,16 +16,10 @@
     font-style: normal;
     
 }
-.ta1{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
 .btn{
     margin-top: 1.25rem;
     border-radius: 5px;
-    letter-spacing: 0.06rem;
+    /* letter-spacing: 0.06rem; */
     padding: 0rem 10rem;
 }
 .devamBtn{
@@ -50,13 +37,6 @@
 .form-text{
     padding-bottom: 0.4rem;
 }
-.headYaziSms{
-    padding-top: 1.5rem;
-    font-size: 2.25rem;
-}
-/* .kod {
-  width: 270px !important;
-} */
 .form-control{
     padding:.9rem .75rem;
     border-radius: 8px 8px 8px 8px;
@@ -68,3 +48,8 @@
     box-shadow: none;
     
 }
+@media screen and (max-width:768px) {
+    .btnSm{
+        padding:.15rem 8rem;
+    }
+  }
