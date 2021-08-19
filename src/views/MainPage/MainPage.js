@@ -12,14 +12,14 @@ const MainPage = () => {
                  <img className="img-fluid" src={maskGroup2} alt="istanbul-kart-reklam" />
               
             </div>
-            <section className="container py-4 mainPagesm">
-                <div className="yirmiSekiz pt-5 mpMedium ">
+            <section className="container py-3 mainPagesm pt-sm-1">
+                <div className="yirmiSekiz pt-lg-5 pt-md-4 mpMedium ">
                   <p>1200 tl’ye varan 0 faizli destek paketine başvurmak ve tarafınıza tanımlanacak özel faizli kredi limitini öğrenmek için  <Link className="text-decoration-underline text-dark" to="/smsDogrulama">tıklayın</Link></p>
-                  <p className="pt-4">Kredi kartı üstünden 500 tl’ye varan destek paketinin detayları ve başvurusu için <Link className="text-decoration-underline text-dark" to="/smsDogrulama">tıklayın</Link></p>
+                  <p className="pt-lg-4 pt-md-3">Kredi kartı üstünden 500 tl’ye varan destek paketinin detayları ve başvurusu için <Link className="text-decoration-underline text-dark" to="/smsDogrulama">tıklayın</Link></p>
                 </div>
                
-                <div className="yirmiAlti pt-5 mpMedium pb-3">Kullanım Koşulları;</div>
-                <div className="pt-3 mpRegular">
+                <div className="yirmiAlti pt-lg-5 pt-md-3 mpMedium pb-3">Kullanım Koşulları;</div>
+                <div className="pt-md-3 mpRegular">
                  <p className="yaziKucuk ">  Kampanya’dan sadece İstanbulkartı ile TCKN bilgisini eşleştirmiş müşteriler yararlanabilecektir.</p>
                  <p className="yaziKucuk ">  Kampanya Banka tarafından yapılacak değerlendirme neticesinde destek paketi onaylanan bireysel müşteriler (gerçek kişi) için geçerlidir. Banka, faiz oranlarında ve kampanya koşullarında değişiklik yapma, onaylanan miktarın kullanımı için son kararı verme, kefil ve ek belge isteme, destek paketine ilişkin tutarın kullandırmama hakkına sahiptir. Başvuruya ilişkin ilgili belgeleri imzalamadan önce faiz oranı, tüm masraf, ücret ve komisyon hakkında tarafınıza bilgi formu ile bilgilendirme yapılacaktır.</p>
                  <p className="yaziKucuk ">  Başvurular müşterinin kendisine ait cep telefonu numarası ve TC kimlik numarası ile yapılmalıdır.</p> 

@@ -8,7 +8,7 @@ const KartBulunmamakta = () => {
         <section  >
              <Link className="linkYazi" to="/yasSiniri">
                 <div className="uyariİsareti mt-5">
-                 <img src={uyari} alt="uyari" />
+                 <img src={uyari} alt="uyari" className="img-fluid"/>
                  <div className="unlem">!</div>
                 </div>
              </Link>

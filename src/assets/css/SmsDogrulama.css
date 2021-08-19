@@ -53,3 +53,11 @@
         padding:.15rem 8rem;
     }
   }
+@media screen and (max-width:576px) {
+    .form-control{
+        padding:0.4rem;
+    }
+    .btnSm{
+        padding: 0.1rem 3rem;
+    }
+}

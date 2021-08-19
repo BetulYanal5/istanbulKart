@@ -17,4 +17,16 @@
     /* margin-top: 2rem;
     margin-bottom: 3rem; */
 }
-
+@media screen and (max-width:576px) {
+    .uyariİsareti .img-fluid{
+      max-width: 40%;
+      height: auto;
+    }
+    .unlem{
+        position: absolute;
+        font-size: 108px;
+        text-align: center;
+        color: #fff;
+        font-style: italic;
+    }
+}

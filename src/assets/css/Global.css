@@ -4,16 +4,11 @@
   .yaziKucuk{
       padding-bottom: 1rem;
       font-size: 24px;
-      
   }
   a{
       text-decoration: none;
       color: #fff;
   }
-  
-  /* a:hover{
-      color: #fff;
-  } */
   .linkYazi{
       color: black;
       text-decoration: underline;
@@ -53,3 +48,60 @@
   .text-opacity{
     color:var(--bs-secondary);
   }
+  @media screen and (max-width:768px) {
+    .otuzAlti{
+        font-size: 28px;
+    }
+    .yirmiSekiz{
+        font-size: 24px;
+    }
+    .yirmiAlti{
+        font-size: 22px;
+    }
+    .yirmiDort{
+        font-size: 20px;
+    }
+    .yaziKucuk{
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+    .yaziKucuk::before{   
+        content: ''; 
+        height: 15px;
+        border-radius: 100%;
+        background-color:#1a4797; 
+        width: 15px;
+        display: inline-block;
+
+    }
+}
+  @media screen and (max-width:576px) {
+    .otuzAlti{
+        font-size: 18px;
+    }
+    .yirmiSekiz{
+        font-size: 15px;
+    }
+    .yirmiAlti{
+        font-size: 14px;
+    }
+    .yirmiDort{
+        font-size: 13px;
+    }
+    .yaziKucuk{
+        font-size: 13px;
+        padding-bottom: 0;
+    }
+    .yaziKucuk::before{   
+        content: ''; 
+        height: 10px;
+        border-radius: 100%;
+        background-color:#1a4797; 
+        width: 10px;
+        display: inline-block;
+    }
+    .btnYazi{
+        font-size: 18px;
+    }
+}
+

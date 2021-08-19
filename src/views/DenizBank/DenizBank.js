@@ -1,15 +1,15 @@
 import React from 'react'
 import logo from '../../assets/images/denizBank.svg';
 import '../../assets/css/DenizBank.css';
+import '../../assets/css/Global.css'
 const DenizBank = () => {
     return (
-        <section className="container">
-            <div className="logoHiza mtop">
-                <img src={logo} alt="logo" />
+        <section className="container mt-5 mb-5 py-5">
+            <div className="logoHiza ">
+                <img src={logo} alt="logo" className="img-fluid"/>
             </div>
-            <div className="col-12 mbottom pt-4" >
-                <p className="otuzAlti text-opacity mpMedium  col-8 mx-auto ">Denizbank AŞ kimlik doğrulama sayfasına</p>
-                <p className="otuzAlti text-opacity mpMedium  col-4 mx-auto">yönlendiriliyorsunuz.</p>
+            <div>
+                <p className="otuzAlti text-opacity hizala mt-4 mx-auto col-10">Denizbank AŞ kimlik doğrulama sayfasına yönlendiriliyorsunuz.</p>
             </div>
         </section>
     )

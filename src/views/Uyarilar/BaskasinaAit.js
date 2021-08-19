@@ -7,7 +7,7 @@ const BaskasinaAit = () => {
     return (
         <div>
             <div className="uyariİsareti mt-5">
-                    <img src={uyari} alt="uyari" />
+                    <img src={uyari} alt="uyari" className="img-fluid"/>
                     <div className="unlem">!</div>
             </div>
             <div className="mpMedium uyariAltindakiYazi pt-5 pb-5">

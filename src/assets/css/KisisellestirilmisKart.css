@@ -21,16 +21,8 @@
     border-radius: 5px;
     letter-spacing: 0.06rem;  
 }
-.eskiKartBtn{
-    background-color: #fff;
-    color: #707070;
-    border-radius: 8px 8px 8px 8px;
-    border-radius: 5px;
-    letter-spacing: 0.5px;
-    line-height: 40px;
-    text-align: center;
-    border:1px solid #707070;
-    width: 240px;
+.yirmiDortKisiselKart{
+    font-size:24px;
 }
 .yeniKartBtn{
     background-color: #fff;
@@ -56,6 +48,23 @@
     width: 15px;
     display: inline-block;
     margin-right: 0.2rem;
+}
+@media screen and (max-width:576px) {
+    .kisiselKartBtn{
+        font-size: 18px;
+    }
+    .yirmiDortKisiselKart{
+        font-size: 18px;
+    }
+    .kisiselKartMadde::before{
+        content: '';
+        height: 13px;
+        border-radius: 100%;
+        background-color:#1a4697; 
+        width: 13px;
+        display: inline-block;
+        margin-right: 0.2rem;
+    }
 }
 @media screen and (max-width:768px) {
     .eskiKart{

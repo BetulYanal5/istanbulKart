@@ -33,3 +33,9 @@
 .kartEkleHover:hover{
     color:#fff;
 }
+@media screen and (max-width:576px) {
+    .kartEkleOrtala{
+       align-items: center;
+       justify-content: center;
+    }
+}

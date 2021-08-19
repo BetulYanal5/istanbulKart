@@ -35,10 +35,24 @@ code {
    .mainPagesm{
      text-align: justify;
      overflow-y: auto;
-     max-height: 500px;
+     max-height: 400px;
    }
    .devamSm{
      padding:.5rem .99rem;
    }
 }
-
+/* @media screen and (max-width:576px) {
+  .otuzAlti{
+    font-size: 18px;
+  }
+  .yirmiSekiz{
+    font-size: 14px;
+  }
+  .yirmiAlti{
+    font-size: 14px;
+  }
+  .yirmiDort{
+    font-size: 12px;
+  }
+  
+} */

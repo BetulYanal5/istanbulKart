@@ -9,11 +9,11 @@ import {Link} from 'react-router-dom'
 const KartSecimi = () => {
     return (
         <section className="container">
-            <p className="otuzAlti pt-4 mpMedium ">Kişiselleştirilmiş İstanbulkart Seçimi</p>
-            <p className="yirmiDort pt-3 mpMedium">İstanbulkart Seçiniz </p>
+            <p className="otuzAlti pt-lg-5 pt-md-4 pt-3 mpMedium ">Kişiselleştirilmiş İstanbulkart Seçimi</p>
+            <p className="yirmiDort pb-lg-5 pt-md-3 pb-4 mpMedium">İstanbulkart Seçiniz </p>
             <div className="col-12">
                 <div className="row " id="checkAyarlama">
-                    <div class="form-check col-lg-4 col-md-6 col-12 text-center">
+                    <div class="form-check col-lg-4 col-md-6 col-12 pb-4 text-center">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked/>
                         <label class="form-check-label" for="flexRadioDefault1">
                         <img src={kart1} alt="1.istanbulkart" />
@@ -31,7 +31,7 @@ const KartSecimi = () => {
             </div>
             <div >
               <Link to="/kisisellistirilmisKart">
-                <button type="submit" className=" btn addBtn btnSm" href="#">
+                <button type="submit" className=" btn addBtn btnSm kartEkleOrtala" href="#">
                         <a className=" ortala">
                             <a href="#">
                                 <img src={arti} alt="ekle-işareti" className="arti " />

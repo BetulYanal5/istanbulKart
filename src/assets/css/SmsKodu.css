@@ -15,9 +15,18 @@
 }
 #noMargin{
     margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 @media screen and (max-width:576px) {
     #noMargin{
-        margin-top: 4rem;
+        margin-top: 2rem;
+    }
+    #noMargin .form-check .form-check-input {
+        width: 1.5em;
+        height: 1.5em;
+        margin-top: .0em;  
     }
 }

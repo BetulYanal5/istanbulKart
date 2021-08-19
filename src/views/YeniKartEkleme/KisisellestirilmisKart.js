@@ -16,11 +16,11 @@ const KisisellestirilmisKart = () => {
         
         <section className="container">
             <div>
-                <p className="mpMedium yirmiDort mt-5 mb-5">Eklemek istediğiniz yeni İstanbulkart T.C. Kimlik Numaranızla eşleştirilecektir.</p>
+                <p className="mpMedium yirmiDortKisiselKart mt-lg-5 mt-md-4 mt-3">Eklemek istediğiniz yeni İstanbulkart T.C. Kimlik Numaranızla eşleştirilecektir.</p>
             </div>
             <form className="row textArea ">
                 <div className="mb-5  col-md-6 col-12 " id="kisisellestirilmisKart">
-                    <label for="exampleInputEmail1" className=" yirmiDort mpMedium mb-2">Kart veya Seri Numarası giriniz</label>
+                    <label for="exampleInputEmail1" className="yirmiDortKisiselKart mpMedium mb-2">Kart veya Seri Numarası giriniz</label>
                     <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
                 </div>
             </form>
@@ -61,9 +61,9 @@ const KisisellestirilmisKart = () => {
                 <p className="mpRegular fs-6 text-opacity mt-3 mb-5 text-center">
                 İstanbulkart’ınızın ön yüzündeki 18 haneli kart numarası ya da arka yüzündeki 14 haneli seri numarasını giriniz.
                 </p>
-                <div className="col-9 container">
-                <p className="yirmiDort kisiselKartMadde mpRegular text-start">Seçtiğiniz kartın sizde olduğuna ve aktif olarak kullandığınıza emin olun.</p>
-                <p className="yirmiDort kisiselKartMadde mpRegular text-start mb-5">Destek paketiniz, seçmiş olduğunuz İstanbulkart'a yüklenecektir.</p>
+                <div className="col-lg-9 container">
+                <p className="yirmiDortKisiselKart kisiselKartMadde mpRegular text-start">Seçtiğiniz kartın sizde olduğuna ve aktif olarak kullandığınıza emin olun.</p>
+                <p className="yirmiDortKisiselKart kisiselKartMadde mpRegular text-start mb-3">Destek paketiniz, seçmiş olduğunuz İstanbulkart'a yüklenecektir.</p>
                 </div>
             </div>
             <div className="textArea ortala py-3">
