@@ -38,4 +38,11 @@
        align-items: center;
        justify-content: center;
     }
+    .addBtn {
+        background: #1a4697;
+        color: #fff;
+        margin-bottom: 3rem;
+        font-style: normal;
+        padding: 0.5rem 5.99rem;
+}
 }

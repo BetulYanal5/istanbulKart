@@ -26,16 +26,16 @@ const KisisellestirilmisKart = () => {
             </form>
             <div className="col-12 container">
                 
-                <div className="row">
+                <div className="row ">
                
-                <div className="col-12 text-center">
-                    <button type="submit" className={`kisiselKartBtn mb-5 mpMedium col-6 me-3 ${which===1 ? 'active' : ""}`} onClick={()=> setWhich(1)}>
+                 <div className="col-12 text-center">
+                    <button type="submit" className={`kisiselKartBtn mb-5 mpMedium col-sm-6 me-3 ${which===1 ? 'active' : ""}`} onClick={()=> setWhich(1)}>
                                     Yeni Kart Görseli
                     </button>
-                    <button   type="submit" className={`kisiselKartBtn mb-5 mpMedium col-6 me-3 ${which===2 ? 'active' : ""}`} onClick={()=> setWhich(2)}>
+                    <button   type="submit" className={`kisiselKartBtn mb-5 mpMedium col-sm-6 me-3 ${which===2 ? 'active' : ""}`} onClick={()=> setWhich(2)}>
                                     Eski Kart Görseli
                     </button>
-                </div>
+                 </div>
                 </div>
             
         </div>
