@@ -31,14 +31,10 @@ const KartSecimi = () => {
             </div>
             <div >
               <Link to="/kisisellistirilmisKart">
-                <button type="submit" className=" btn addBtn btnSm kartEkleOrtala" href="#">
-                        <a className=" ortala">
-                            <a href="#">
+                <div className="bg-color kartEkleOrtala text-center py-2 rounded col-lg-4 col-12 kartEkleHover">
                                 <img src={arti} alt="ekle-işareti" className="arti " />
-                                <a className="kartEkleHover mpMedium">Başka Bir Kart Ekle</a>
-                            </a>
-                        </a>
-                 </button>
+                                <span className="kartEkleHover mpMedium">Başka Bir Kart Ekle</span>
+                 </div>
                </Link>
             </div>
             <div>
